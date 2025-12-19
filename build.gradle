@@ -164,6 +164,9 @@ dependencies {
     implementation fg.deobf("dev.architectury:architectury-forge:9.1.12")
     implementation "dev.ftb.mods:ftb-quests-forge:2001.4.17"
     implementation "dev.ftb.mods:ftb-library-forge:2001.2.12"
+    // uncomment if you want no crash
+    // implementation fg.deobf("curse.maven:ftbq-289412:7260736")
+    // implementation fg.deobf("curse.maven:ftbl-404465:7296748")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
